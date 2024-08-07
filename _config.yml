@@ -1,4 +1,4 @@
-title: File Upload Guide using Transmit
+title: File Upload Guide
 description: This guide will walk you through the process of uploading files to an S3 bucket and using SFTP with SSH keys.
 theme: just-the-docs
 
