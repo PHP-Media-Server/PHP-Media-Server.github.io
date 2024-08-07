@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: File Upload Guide using Transmit
+description: This guide will walk you through the process of uploading files to an S3 bucket and using SFTP with SSH keys.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://php-media-server.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
