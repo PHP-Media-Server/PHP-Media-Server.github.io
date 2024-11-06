@@ -13,18 +13,6 @@ This guide will walk you through the process of uploading files to an S3 bucket 
 - Access to an S3 bucket.
 - SSH key pair generated.
 
-## Uploading Files to S3
-1. Open Transmit.
-2. Click on the `+ New Connection` button.
-3. Choose `S3` from the list of connection types.
-4. Enter your S3 credentials:
-    - **Server:** s3.amazonaws.com
-    - **Access Key ID:** Your AWS Access Key
-    - **Secret Access Key:** Your AWS Secret Key
-5. Click `Connect`.
-6. Navigate to the desired bucket in the left pane.
-7. Drag and drop files from your local system to the S3 bucket.
-
 ## Using SFTP with SSH Keys
 1. Open Transmit.
 2. Click on the `+ New Connection` button.
