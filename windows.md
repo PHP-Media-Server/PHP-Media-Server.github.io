@@ -6,8 +6,7 @@ layout: home
 # File Upload Guide using WinSCP
 
 ## Introduction
-This guide will walk you through the process of securely uploading files the Online Media server using over the SSH protocol. The recommended 
-application for the Windows platform is [WinSCP](https://winscp.net/).
+This guide will walk you through the process of manual uploading of files to the Online Media server. The transfer method   described here is secure and uses the the SSH protocol. For Windows users we recommended [WinSCP](https://winscp.net/).
 
 ## Prerequisites
 - The WinSCP application installed on your computer.
@@ -16,8 +15,7 @@ application for the Windows platform is [WinSCP](https://winscp.net/).
 - `SSH key pass phrase`, provided by your system administrator.
 
 ## Configuring WinSCP
-When WinSCP launches, it comes with the `Login configuration` window open. Here you will enter the host name and the user name.
-Do not enter password. Before saving, click on "Advanced"
+When WinSCP launches, it comes with the `Login configuration` window open. Here you will enter the host name and the user name. Do not enter password. Before saving, click on "Advanced"
 <br>
 ![image](advanced.png)
 
@@ -34,11 +32,7 @@ Enter a descriptive name for your session in the `site name` field. Press `OK` t
 Click `Login` and when prompted, enter the SSH key passphrase.
 
 ## Using WinSCP to transfer files
-WinSCP is a powerful application that allows bulk tranfer of files between two computers. It also offer the `Synchronise` feature
-which is useful when transfering a big number of files. If transfer is interrupted for some reason, running `Synchronise` will allow
-you to continue where you left off. 
+WinSCP is a powerful application that allows bulk tranfer of files between two computers. It also offer the `Synchronise` feature which is useful when transfering a big number of files. If transfer is interrupted for some reason, running the `Synchronise` option will allow you to continue where you left off. This is an improvement over the regular transfers performed over the browser where one needs to start over after a failure.
 
-The user interface is divided in two. The file browser at the left side shows the contents of your local machine. The right side shows
-the remote machine. Just select the files or folders at the left side and drag and drop them at the right side. Right clicking the selection
-and choosing the menu item `Upload` will also work. After a successful transfer operation, uploaded files will also appear at the right side.
+The WinSCP user interface is divided in two. The file browser at the left side shows the contents of your local machine. The right side shows the remote machine. To transfer files from your local computer to the remote machine, just select the files or folders at the left side and drag and drop them to the right side. You can also right clicking the selection at the left side and choose the menu item `Upload`. After a successful transfer, newly uploaded files will also appear at the right side.
 
