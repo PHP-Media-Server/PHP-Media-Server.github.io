@@ -13,6 +13,8 @@ This guide will walk you through the process of uploading files to an S3 bucket 
 - Access to an S3 bucket.
 - SSH key pair generated.
 
+![image](images/abc.png)
+
 ## Using SFTP with SSH Keys
 1. Open Transmit.
 2. Click on the `+ New Connection` button.
