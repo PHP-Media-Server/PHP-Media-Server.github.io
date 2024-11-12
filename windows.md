@@ -15,7 +15,7 @@ This guide will walk you through the process of manual uploading of files to the
 - `SSH key pass phrase`, provided by your system administrator.
 
 ## Configuring WinSCP
-When WinSCP launches, it comes with the `Login configuration` window open. Here you will enter the host name and the user name. Do not enter password. Before saving, click on "Advanced"
+When WinSCP launches, it comes with the `Login configuration` window open. Here you will choose the option `SFTP` and then enter the host name and the user name in their respective areas. Do not enter password. Before saving, click on "Advanced"
 <br>
 ![image](advanced.png)
 
