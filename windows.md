@@ -32,7 +32,7 @@ Enter a descriptive name for your session in the `site name` field. Press `OK` t
 Click `Login` and when prompted, enter the SSH key passphrase.
 
 ## Using WinSCP to transfer files
-WinSCP is a powerful application that allows bulk tranfer of files between two computers. It also offer the `Synchronise` feature which is useful when transfering a big number of files. If transfer is interrupted for some reason, running the `Synchronise` option will allow you to continue where you left off. This is an improvement over the regular transfers performed over the browser where one needs to start over after a failure.
+WinSCP is a powerful application that allows bulk tranfer of files between two computers. It also offers features like `Compare Directories` nad `Synchronise` which are useful when transfering a big number of files. If transfer is interrupted for some reason, running the `Synchronise` option will allow you to continue where you left off. This is an improvement over the regular transfers performed over the browser where one needs to start over after a failure.
 
 The WinSCP user interface is divided in two. The file browser at the left side shows the contents of your local machine. The right side shows the remote machine. To transfer files from your local computer to the remote machine, just select the files or folders at the left side and drag and drop them to the right side. You can also right clicking the selection at the left side and choose the menu item `Upload`. After a successful transfer, newly uploaded files will also appear at the right side.
 
