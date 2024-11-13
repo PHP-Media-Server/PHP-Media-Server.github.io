@@ -42,6 +42,6 @@ When logged in, you will only see one directory, called `uploads`. Double click 
 To transfer files from your local computer to the remote machine, just select the files or folders at the left side and drag and drop them to the right side. You can also right click the selection at the left side and choose the context menu item `Upload`. After a successful transfer, newly uploaded files will appear at the right side.
 
 ## Importing manually uploaded files into the Online Media Server
-After having successfully uploaded files into remote `uploads` directory, login to your Online Media Server account. You can now import these filesinto the Online Media Server using the `Manual Sync` button. 
+After having successfully uploaded files into remote `uploads` directory, login to your Online Media Server account. You can now import these files into the Online Media Server using the `Manual Sync` button. 
 
 ![image](sync-manual-button.png)
