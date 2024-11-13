@@ -11,19 +11,10 @@ This guide will walk you through the process of manual uploading of files to the
 ## Prerequisites
 - The WinSCP application installed on your computer.
 - `Host name` and the `User name`, provided by your system administrator.
-- `SSH key` file (.ppk format), provided by your system administrator.
-- `SSH key pass phrase`, provided by your system administrator.
+- `SFTP` password
 
 ## Configuring WinSCP
-When WinSCP launches, it comes with the `Login configuration` window open. Here you will choose the option `SFTP` and then enter the host name and the user name in their respective areas. Do not enter password. Before saving, click on "Advanced"
-<br>
-![image](advanced.png)
-
-Navigate to the `Authentication` tab of the `Advanced Site Settings` window to set the private .ppk key file. 
-Press `OK` to close the "Advanced Site Settings" window 
-![image](key-file.png)
-
-Choose the `Save` option to save the session.
+When WinSCP launches, it comes with the `Login configuration` window open. Here you will choose the option `SFTP` and then enter the host name and the user name in their respective areas. Then enter password.  Choose the `Save` option to save the session.
 ![image](login-window.png)
 
 Enter a descriptive name for your session in the `site name` field. Press `OK` to close the `save session as site` window.
