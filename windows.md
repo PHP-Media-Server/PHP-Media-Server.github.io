@@ -14,7 +14,7 @@ This guide will walk you through the process of manual uploading of files to the
 - `SFTP` password
 
 ## Configuring WinSCP
-When WinSCP launches, it comes with the `Login configuration` window open. Here you will choose the option `SFTP` and then enter the host name and the user name in their respective areas. Then enter password.  Choose the `Save` option to save the session.
+When WinSCP launches, it comes with the `Login configuration` window open. Here you will choose the option `SFTP` and then fill in the `Host name`,  the `User name` and  `Password` fields. Choose the `Save` option to save the session.
 ![image](login-window.png)
 
 Enter a descriptive name for your session in the `site name` field. Press `OK` to close the `save session as site` window.
