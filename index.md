@@ -14,15 +14,14 @@ This guide will walk you through the process of uploading files to the remove me
 - `SSH key` file (OpenSSH format, a file without extension in its name), provided by your system administrator.
 - `SSH key pass phrase`, provided by your system administrator.
 
-## Using SCP with SSH Keys
+## Using SCP with Password
 1. Open Transmit.
 2. Click on the `+ New Connection` button.
 3. Choose `SFTP` from the list of connection types.
 4. Enter your server details:
     - **Server:** enter `Host name`
     - **Username:** enter `User name`
-5. Click on `Use Public Key Authentication`.
-6. Click on the `Key` icon next to the password field and select your private key file.
+    - **Password:** enter `Password`
 7. Click `Connect`.
 8. Navigate to the desired directory on the server in the left pane.
 9. Drag and drop files from your local system to the server.
