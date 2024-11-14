@@ -10,9 +10,7 @@ This guide will walk you through the process of uploading files to the remove me
 
 ## Prerequisites
 - Transmit application installed on your computer.
-- `Host name` and the `User name`, provided by your system administrator.
-- `SSH key` file (OpenSSH format, a file without extension in its name), provided by your system administrator.
-- `SSH key pass phrase`, provided by your system administrator.
+- `Host name`, `Password` and the `User name`, provided by your system administrator.
 
 ## Using SCP with Password
 1. Open Transmit.
