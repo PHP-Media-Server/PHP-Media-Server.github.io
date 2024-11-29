@@ -6,15 +6,15 @@ layout: home
 # File Upload Guide using WinSCP
 
 ## Introduction
-This guide will walk you through the process of manual uploading of files to the Online Media server. The transfer method   described here is secure and uses the the SFTP protocol. For Windows users we recommended [WinSCP](https://winscp.net/).
+This guide will walk you through the process of manual uploading of files to the Online Media server. The transfer method   described here is secure and uses the the SCP over SSH protocol. For Windows users we recommended [WinSCP](https://winscp.net/).
 
 ## Prerequisites
 - The WinSCP application installed on your computer.
 - `Host name` and the `User name`, provided by your system administrator.
-- `SFTP` password
+- `SCP` password
 
 ## Configuring WinSCP
-When WinSCP launches, it comes with the `Login configuration` window open. Here you will choose the option `SFTP` and then fill in the `Host name`,  the `User name` and  `Password` fields. Then click on the `Advanced` option
+When WinSCP launches, it comes with the `Login configuration` window open. Here you will choose the option `SCP` and then fill in the `Host name`,  the `User name` and  `Password` fields. Then click on the `Advanced` option
 ![image](login-window.png)
 
 In the `Advanced Site Settings` window, navigate to `Directories` and fill in the `Remote Directory` field with the value `/data/manual.main/uploads`. Click 
