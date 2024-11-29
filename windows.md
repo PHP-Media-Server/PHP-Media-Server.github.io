@@ -11,22 +11,21 @@ This guide will walk you through the process of manual uploading of files to the
 ## Prerequisites
 - The WinSCP application installed on your computer.
 - `Host name` and the `User name`, provided by your system administrator.
-- `SCP` password
+- `SSH` password
 
 ## Configuring WinSCP
 When WinSCP launches, it comes with the `Login configuration` window open. Here you will choose the option `SCP` and then fill in the `Host name`,  the `User name` and  `Password` fields. Then click on the `Advanced` option
 ![image](login-window.png)
 
-In the `Advanced Site Settings` window, navigate to `Directories` and fill in the `Remote Directory` field with the value `/data/manual.main/uploads`. Click 
-`Save` to save an close this window.
+In the `Advanced Site Settings` window, navigate to `Directories` and fill in the `Remote Directory` field with the value `/data/manual.main/uploads`. Click `OK` to save and close this window and return to the `Login configuration` window.
 ![image](remote-directory-name.png)
 
-Then choose the `Transfer Settings Rule` option.
+In the `Login configuration` window, choose the `Transfer Settings Rule` option.
 ![image](transfer-settings.png)
 
-In the `Edit Transfer Settings` window, enter a description in the field `Preset Description`. The `Host Name` good candidate here.
+In the `Edit Transfer Settings` window, enter a description in the field `Preset Description`. The `Host Name` might be a good candidate here.
 Then select the checkbox `Set Permissions` and check all available permission checkboxes as described in the screenshot.
-Click `OK` to save an close this window and return to the `Login configuration` window.
+Click `OK` to save and close this window and return to the `Login configuration` window.
 ![image](transfer-settings-edit.png)
 
 In the `Login configuration` window, click on the `Save` button.
@@ -35,10 +34,10 @@ In the `Login configuration` window, click on the `Save` button.
 In the popup that appears, enter a descriptive name for your session in the `site name` field. Press `OK` to close the `save session as site` window.
 ![image](save-session.png)
 
-To login, in the `Login configuration` window, click `Login` and when prompted, enter the SSH key passphrase.
+In order to be able to transfer files, you need to log in first. In the `Login configuration` window, select the configuration you just created and click `Login`. When prompted, enter the SSH key passphrase.
 
 ## Using WinSCP to transfer files
-WinSCP is a powerful application that allows bulk tranfer of files between two computers. It also offers features like `Compare Directories` nad `Synchronise` which are useful when transfering a big number of files. If transfer is interrupted for some reason, running the `Synchronise` option will allow you to continue where you left off. This is an improvement over the regular transfers performed over the browser where one needs to start over after a failure.
+WinSCP is a powerful application that allows bulk tranfer of files between two computers. It also offers features like `Compare Directories` nad `Synchronise` which are useful when transfering a big number of files. If transfer has been interrupted for some reason, running the `Synchronise` option will allow you to continue where you left off. This is an improvement over the regular transfers performed over the browser where one needs to start over after a failure.
 
 The WinSCP user interface is divided in two. The file browser at the left side shows the contents of your local machine. The right side shows the remote machine. 
 
