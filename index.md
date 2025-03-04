@@ -26,6 +26,8 @@ This guide will walk you through the process of uploading files to the remove me
     - **Password:** click key button and import ssh key (id_rsa) file.
       
       ![image](transmit_connection_form.png)
+  
+      ![image](transmit_password.png)
    
       ![image](transmit_import_ssh.png)
       
