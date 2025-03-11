@@ -21,6 +21,8 @@ This guide will walk you through the process of manual uploading of files to the
 
 ![image](ftp_manager_new.jpeg =350x756)
 
+<img src="ftp_manager_new.jpeg" width="350">
+
 3. Here you will fill in the `Host name`,  the `User name` and  `Password` fields. Field with the value path is `/data/manual.main/uploads`. Click `Save` to save and close this window and return to the `Home Screen` window.
 
 ![image](ftp_manager_config.jpeg =350x756)
