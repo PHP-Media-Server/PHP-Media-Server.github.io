@@ -15,31 +15,31 @@ This guide will walk you through the process of manual uploading of files to the
 ## Configuring FTP Manager
 1. When WinSCP launches, it comes with the home page that has a plus button at the right corder, click it and `Login configuration` window open.
 
-![image](ftp_home_screen.jpeg)
+![image](ftp_home_screen.jpeg =350x756)
 
 2. Choose SFT for this connection.
 
-![image](ftp_manager_new.jpeg)
+![image](ftp_manager_new.jpeg =350x756)
 
 3. Here you will fill in the `Host name`,  the `User name` and  `Password` fields. Field with the value path is `/data/manual.main/uploads`. Click `Save` to save and close this window and return to the `Home Screen` window.
 
-![image](ftp_manager_config.jpeg)
+![image](ftp_manager_config.jpeg =350x756)
 
 4. In the `Connections` window, choose the `PHPOMS`. It will navigate to the desired directory on the server in the window.
 
-![image](ftp_manager_folders.jpeg)
+![image](ftp_manager_folders.jpeg =350x756)
 
 
 5. To transfer files from your phone to the remote machine, just select the files or folders at the main window > My files.
 
-![image](ftp_manager_select_file.jpeg)
+![image](ftp_manager_select_file.jpeg =350x756)
 
 6. After select file click copy button at the bottom left corner. And select `PHPOMS`.
 
-![image](ftp_manager_copy.jpeg)
+![image](ftp_manager_copy.jpeg =350x756)
 
 7. Transfer will be started after destination folder is selected.
-![image](ftp_manager_copy_process.jpeg)
+![image](ftp_manager_copy_process.jpeg =350x756)
 
 8. Note that this apps do not have any permission control panel. So, we need to update uploaded files' permissions in Transmit/WinSCP using our computers.
 
